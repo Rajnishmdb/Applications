@@ -24,12 +24,10 @@ Enable installation from unknown sources in your device settings.
 Install the app by following the on-screen instructions.
 Open the app and log in with your student credentials or create a new account.
 Feedback
-We value your feedback! If you encounter any issues, have suggestions for improvement, or want to request additional features, please reach out to us through the in-app feedback option or email us at support@example.com.
+We value your feedback! If you encounter any issues, have suggestions for improvement, or want to request additional features.
 
 Contributing
 We welcome contributions from the community. If you have coding skills and want to contribute to the development of this app, please check out our GitHub repository.
 
-Support
-For any assistance or queries, contact our support team at support@example.com or visit our FAQ section on the website.
 
 Thank you for choosing the B.Tech Syllabus and Notes App! Happy studying!
