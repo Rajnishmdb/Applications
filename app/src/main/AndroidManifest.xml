@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gate.learners">
+   <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.gate.learners.G_NOTICE"/>
+        <activity android:name="com.gate.learners.G_BOOK" />
+        <activity android:name="com.gate.learners.G_SYLLABUS" />
+        <activity android:name="com.gate.learners.GATE"
+            android:screenOrientation="userPortrait"/>
+        <activity android:name="com.gate.learners.D_SIG_PRO" />
+        <activity android:name="com.gate.learners.MICROCONTROLLER" />
+        <activity android:name="com.gate.learners.INTER_INTRA" />
+        <activity android:name="com.gate.learners.MUL_TECH" />
+        <activity android:name="com.gate.learners.XML_WEB" />
+        <activity android:name="com.gate.learners.INTRUS_DETECT" />
+        <activity android:name="com.gate.learners.VISUAL_P" />
+        <activity android:name="com.gate.learners.MOB_COMPUTE" />
+        <activity android:name="com.gate.learners.F_OPTCS_NET_TECH" />
+        <activity android:name="com.gate.learners.NANO_TECH" />
+        <activity android:name="com.gate.learners.DGTL_TELE_MNG" />
+        <activity android:name="com.gate.learners.VLSI_DGN" />
+        <activity android:name="com.gate.learners.EMBEDDED_SYS_DGN" />
+        <activity android:name="com.gate.learners.I_COMMUNICATE_SYS" />
+        <activity android:name="com.gate.learners.GeoInfoRemoteSns" />
+        <activity android:name="com.gate.learners.D_IMG_PRO" />
+        <activity android:name="com.gate.learners.C_ADDED_DGN_M" />
+        <activity android:name="com.gate.learners.C_ADDED_DGN" />
+        <activity android:name="com.gate.learners.IMG_PRO_GIS" />
+        <activity android:name="com.gate.learners.ECOM_ERP" />
+        <activity android:name="com.gate.learners.INTEL_INSTRUMENT" />
+        <activity android:name="com.gate.learners.MICRO_IC_DGN_FAB" />
+        <activity android:name="com.gate.learners.NETWORK_SECURE" />
+        <activity android:name="com.gate.learners.ROBO_R_APP" />
+        <activity android:name="com.gate.learners.OPT_RESEARCH" />
+        <activity android:name="com.gate.learners.SPEECH_PRO" />
+        <activity android:name="com.gate.learners.NEURAL_NET_APP" />
+        <activity android:name="com.gate.learners.C_GRAPHICS" />
+        <activity android:name="com.gate.learners.C_GEOMATRY" />
+        <activity android:name="com.gate.learners.N_L_P" />
+        <activity android:name="com.gate.learners.GENETIC_ALGO" />
+        <activity android:name="com.gate.learners.PATTERN_RECOG" />
+        <activity android:name="com.gate.learners.OPT_THEORY" />
+        <activity android:name="com.gate.learners.PER_EVAL_C_SYS" />
+        <activity android:name="com.gate.learners.AVD_C_ARCH" />
+        <activity android:name="com.gate.learners.PARA_COMPUTING" />
+        <activity android:name="com.gate.learners.DIST_DATABASE" />
+        <activity android:name="com.gate.learners.MOB_WIRE_COMPUTING" />
+        <activity android:name="com.gate.learners.CRYPTOGRAPHY" />
+        <activity android:name="com.gate.learners.Real_Time_Sys" />
+        <activity android:name="com.gate.learners.F_D_Communication" />
+        <activity android:name="com.gate.learners.PROJECT2" />
+        <activity android:name="com.gate.learners.INFO_SECURITY" />
+        <activity android:name="com.gate.learners.P_MANAGEMENT_I_RELATION" />
+        <activity android:name="com.gate.learners.DATA_MINING" />
+        <activity android:name="com.gate.learners.ELECTIVE" />
+        <activity android:name="com.gate.learners.IND_TRAINING" />
+        <activity android:name="com.gate.learners.PROJECT1" />
+        <activity android:name="com.gate.learners.DIS_COMPUTING" />
+        <activity android:name="com.gate.learners.ART_INTEL" />
+        <activity android:name="com.gate.learners.COMPILER_6" />
+        <activity android:name="com.gate.learners.WADD_6" />
+        <activity android:name="com.gate.learners.SOFT_ENGG_6" />
+        <activity android:name="com.gate.learners.IEA_6" />
+        <activity android:name="com.gate.learners.FLAT_6" />
+        <activity android:name="com.gate.learners.PPL_6" />
+        <activity android:name="com.gate.learners.OOAD6" />
+        <activity android:name="com.gate.learners.DATABASE" />
+        <activity android:name="com.gate.learners.C_NETWORK" />
+        <activity android:name="com.gate.learners.OPERATING_SYS" />
+        <activity android:name="com.gate.learners.JAVA" />
+        <activity android:name="com.gate.learners.D_ALGORITHM" />
+        <activity android:name="com.gate.learners.M_PROCESSOR" />
+        <activity android:name="com.gate.learners.OBIP" />
+        <activity android:name="com.gate.learners.SYS_PROGRAM" />
+        <activity android:name="com.gate.learners.C_ARCH" />
+        <activity android:name="com.gate.learners.DATA_S_4" />
+        <activity android:name="com.gate.learners.ANALOG4" />
+        <activity android:name="com.gate.learners.DISCRETE_GRAPH" />
+        <activity android:name="com.gate.learners.INTERNSHIP_1" />
+        <activity android:name="com.gate.learners.T_WRITING" />
+        <activity android:name="com.gate.learners.MATH3" />
+        <activity android:name="com.gate.learners.OOPS" />
+        <activity android:name="com.gate.learners.DATA_STRUCTURE" />
+        <activity android:name="com.gate.learners.ANALOG" />
+        <activity
+            android:name="com.gate.learners.SEM8"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.gate.learners.SEM7"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.gate.learners.SEM6"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.gate.learners.SEM5"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.gate.learners.SEM4"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.gate.learners.SEM3"
+            android:screenOrientation="userPortrait" />
+        <activity android:name="com.gate.learners.EGD" />
+        <activity android:name="com.gate.learners.BEE" />
+        <activity android:name="com.gate.learners.MATH2" />
+        <activity android:name="com.gate.learners.PHYSICS" />
+        <activity
+            android:name="com.gate.learners.SEM2"
+            android:screenOrientation="userPortrait" />
+        <activity android:name="com.gate.learners.ENGLISH" />
+        <activity android:name="com.gate.learners.WORKSHOP" />
+        <activity android:name="com.gate.learners.PROGRAM" />
+        <activity android:name="com.gate.learners.CHEMISTRY" />
+        <activity android:name="com.gate.learners.MATH1" />
+        <activity
+            android:name="com.gate.learners.SEM1"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.gate.learners.Semester"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.gate.learners.MainActivity"
+            android:screenOrientation="userPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
